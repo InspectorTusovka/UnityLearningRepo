@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8e9dc293e36284ca9959d59e3fe0bc, type: 3}
+  m_Name: PlayerInitData
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4236560555499319101, guid: ae92b528fa474b34595f971d2b37dc18, type: 3}
+  defaultSpeed: 4
+  defaultJumpPower: 35
