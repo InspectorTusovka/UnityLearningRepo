@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using Code.Controllers;
+using UnityEngine;
 
-namespace Code.DataCode
+namespace Code.Data
 {
-    [CreateAssetMenu(menuName = "Create bonus")]
-    public class BonusData : ScriptableObject
+    [CreateAssetMenu(menuName = "Data/BonusData")]
+    public sealed class BonusData : ScriptableObject
     {
+        public int Id;
         public GameObject bonusPrefab;
-        public int BonusId;
     }
 }
